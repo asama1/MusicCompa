@@ -34,7 +34,14 @@ basic.forever(function () {
         music.stopAllSounds()
 
         // Play Super Mario Theme
-        music.playMelody("E - E - E E E - ", 280)
+        music.playMelody("C G E C G E E C ", 280)
+        music.playMelody("C E G G E G G E ", 280)
+        music.playMelody("A B B b A", 280)
+        music.playMelody("G E G A G A G E ", 280)
+        music.playMelody("F G E C D B E A ", 280)
+        music.playMelody("G F E C G B A E ", 280)
+        music.playMelody("G G E E G G E G ", 280)
+        music.playMelody("G A F G A E G E ", 280)
     }
 
     // Check if device is facing south (225 < x)
