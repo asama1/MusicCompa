@@ -53,7 +53,13 @@ basic.forever(function () {
         music.stopAllSounds()
 
         // Play Never Gonna Give You Up
-        music.playMelody("E - E - E E E - ", 280)
+       music.playMelody("C - D - E - F G ", 280)
+        // Play Bloody Stream
+        music.playMelody("- G - A - B - C5 ", 280)
+        // Play Bloody Stream
+        music.playMelody("B G B - C C E G ", 280)
+        // Play Bloody Stream
+        music.playMelody("C E C E G A B C5 ", 280)
     }
 
     // Otherwise, device is assumed to be facing east
@@ -65,7 +71,19 @@ basic.forever(function () {
         music.stopAllSounds()
 
         // Play Bloody Stream
-        music.playMelody("E - E - E E E - ", 280)
+         music.playMelody("C5 B - B A F B F ", 280)
+        // Play Bloody Stream
+        music.playMelody("F B F B A F A B ", 280)
+        // Play Bloody Stream
+        music.playMelody("F C - C F A B F ", 280)
+        // Play Bloody Stream
+        music.playMelody("G F - G - B - G ", 280)
+        music.playMelody("C5 - A - F A F B ", 280)
+        music.playMelody("F G F B F A F B ", 280)
+        // Play Bloody Stream
+        music.playMelody("C5 B - B A F B F ", 280)
+        music.playMelody("D F D - A D G - ", 280)
+        music.playMelody("G - B - F - A A ", 280)
     }
 })
 
